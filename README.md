@@ -6,10 +6,13 @@ This is a simple console app for making simple calculation operations like (Addi
 
 Here is the complete code of the app written in C#. In the program, there are four functional blocks–Addition, Subtraction, Multiplication, and Division. The user has to select one of the options for addition, subtraction, multiplication, and division respectively.
 
-####“Press 1 for Addition”.
-####“Press 2 for Subtraction”.
-####“Press 3 for Multiplication”.
-####“Press 4 for Division”.
+#### “Press 1 for Addition”
+
+#### “Press 2 for Subtraction”
+
+#### “Press 3 for Multiplication”
+
+#### “Press 4 for Division”
 
             Console.WriteLine("Enter the action to be performed");  
             Console.WriteLine("Press 1 for Addition");  
@@ -23,7 +26,7 @@ Here is the complete code of the app written in C#. In the program, there are fo
             int input_2 = Convert.ToInt32(Console.ReadLine());  
             int result = 0;  
 
-#* Switch
+# Switch
 
             switch (action) {  
                 case 1: {  
@@ -50,7 +53,7 @@ Here is the complete code of the app written in C#. In the program, there are fo
             Console.ReadKey();  
         }  
 
-#* Addition Function
+# Addition Function
 
         //Addition  
         public static int Addition(int input_1, int input_2) {  
@@ -58,7 +61,7 @@ Here is the complete code of the app written in C#. In the program, there are fo
             return result;
             }
 
-#* Subtraction Function
+# Subtraction Function
 
         //Subtraction  
         public static int Subtraction(int input_1, int input_2) {  
@@ -66,7 +69,7 @@ Here is the complete code of the app written in C#. In the program, there are fo
             return result;
             }
 
-#* Multiplication Function
+# Multiplication Function
 
         //Multiplication  
         public static int Multiplication(int input_1, int input_2) {  
@@ -74,7 +77,7 @@ Here is the complete code of the app written in C#. In the program, there are fo
             return result;
             }
 
-#* Division Function
+#  Division Function
 
         //Division  
         public static int Division(int input_1, int input_2) {  
@@ -82,6 +85,6 @@ Here is the complete code of the app written in C#. In the program, there are fo
             return result;  
             }
 
-##Here is the result
+# Here is the result
 
 ![image](https://user-images.githubusercontent.com/97340280/160282675-fc4d0792-23f3-4aa1-a9b3-90480e28b6f0.png)
